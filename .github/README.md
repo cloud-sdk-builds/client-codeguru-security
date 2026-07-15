@@ -1,12 +1,12 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-codeguru-security`](https://www.npmjs.com/package/@aws-sdk/client-codeguru-security/v/3.1086.0).
+[`@aws-sdk/client-codeguru-security`](https://www.npmjs.com/package/@aws-sdk/client-codeguru-security/v/3.1087.0).
 
 Refer to the links below for detailed documentation:
 - All Services - [https://cloud-sdk-builds.github.io](https://cloud-sdk-builds.github.io/)
 - @aws-sdk/client-codeguru-security - [https://cloud-sdk-builds.github.io/?sdk=client-codeguru-security](https://cloud-sdk-builds.github.io/?sdk=client-codeguru-security)
-- @aws-sdk/client-codeguru-security v3.1086.0 - [https://cloud-sdk-builds.github.io/?sdk=client-codeguru-security&version=3.1086.0](https://cloud-sdk-builds.github.io/?sdk=client-codeguru-security&version=3.1086.0)
+- @aws-sdk/client-codeguru-security v3.1087.0 - [https://cloud-sdk-builds.github.io/?sdk=client-codeguru-security&version=3.1087.0](https://cloud-sdk-builds.github.io/?sdk=client-codeguru-security&version=3.1087.0)
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -33,13 +33,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-codeguru-security@3.1086.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-codeguru-security@3.1087.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-3tfyuLtfAUr0Na1p5NYSTO2y/DfhkN54R9zGmttgxZ4Wfomxy8Y/3x8OX7HeT7uj
+sha384-STRoa6BAxJ6IV24pf+WuVj4s/J+MmTMUfS76joISo1ooDsaAphL6N9wSzyYBiyxm
 ```
 
 ### 📌 Latest Version
@@ -66,10 +66,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-codeguru-security": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-codeguru-security@3.1086.0/index.min.mjs"
+            "@aws-sdk/client-codeguru-security": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-codeguru-security@3.1087.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-codeguru-security@3.1086.0/index.min.mjs": "sha384-3tfyuLtfAUr0Na1p5NYSTO2y/DfhkN54R9zGmttgxZ4Wfomxy8Y/3x8OX7HeT7uj"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-codeguru-security@3.1087.0/index.min.mjs": "sha384-STRoa6BAxJ6IV24pf+WuVj4s/J+MmTMUfS76joISo1ooDsaAphL6N9wSzyYBiyxm"
         }
       }
 </script>
@@ -86,10 +86,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-codeguru-security": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-codeguru-security@3.1086.0/index.min.mjs"
+                        "@aws-sdk/client-codeguru-security": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-codeguru-security@3.1087.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-codeguru-security@3.1086.0/index.min.mjs": "sha384-3tfyuLtfAUr0Na1p5NYSTO2y/DfhkN54R9zGmttgxZ4Wfomxy8Y/3x8OX7HeT7uj"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-codeguru-security@3.1087.0/index.min.mjs": "sha384-STRoa6BAxJ6IV24pf+WuVj4s/J+MmTMUfS76joISo1ooDsaAphL6N9wSzyYBiyxm"
                     }
                   }
             </script>
@@ -156,7 +156,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.1086.0`)
+* Always pin to a specific version (`@3.1087.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -176,7 +176,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-codeguru-security/blob/refs/tags/3.1086.0/LICENSE
+https://github.com/cloud-sdk-builds/client-codeguru-security/blob/refs/tags/3.1087.0/LICENSE
 ```
 
 ---
